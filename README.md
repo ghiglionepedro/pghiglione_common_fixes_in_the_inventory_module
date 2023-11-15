@@ -1,0 +1,1 @@
+# pghiglione_common_fixes_in_the_inventory_module
