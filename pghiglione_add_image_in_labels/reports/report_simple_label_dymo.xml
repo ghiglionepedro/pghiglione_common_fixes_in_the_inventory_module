@@ -20,10 +20,10 @@
                             </div>
                             <div class="o_label_left_column">
                                 <small class="text-nowrap" t-field="product.default_code"/>
-                                <t t-if="product.is_product_variant"/>
+                                <t t-if="product.is_product_variant">
                                     <img height="30.0" width="40.0">[[product.template_image]]</img>
                                 </t>
-                                <t t-else=""/>
+                                <t t-else="">
                                     <img height="30.0" width="40.0">[[product.image_1920]]</img>
                                 </t>
                                 <img t-att-src="company.logo" style="max-height: 50px; max-width: 200px;" />
