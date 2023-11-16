@@ -27,6 +27,6 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'report_simple_label_dymo.xml'
+        'reports/report_simple_label_dymo.xml'
     ],
 }
